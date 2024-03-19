@@ -1,0 +1,98 @@
+/* Global Classes */
+body {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.font {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.btn {
+  background-color: #212121;
+  color: #fff;
+  padding: 10px 10rem;
+}
+
+/* .Join As a customer */
+.logo {
+  margin-bottom: 10rem;
+}
+
+.joining-options {
+  min-height: 200px;
+  min-width: 320px;
+}
+
+input[type='radio']:after {
+  width: 17px;
+  height: 17px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #fafafa;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #000;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  content: url(./assets/images/radio-check.png);
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.header-section h1 {
+  font-weight: 900;
+}
+
+/* Create Account */
+
+.sign-up-page {
+  background-image: url('./assets/images/bg-1.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.overlay-wrapper {
+  opacity: 0.4;
+}
+
+.inputs-container label {
+  bottom: 30px;
+  z-index: 999;
+  background-color: #fff;
+  left: 15px;
+}
+
+.inputs-container input {
+  left: 2%;
+}
+
+.form-inputs {
+  gap: 2rem;
+}
+
+@media (max-width: 600px) {
+  /* Join as a customer */
+  .options-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 15px;
+  }
+
+  .btn {
+    background-color: #212121 !important;
+    color: #fff !important;
+    padding: 10px 3rem !important;
+  }
+}
