@@ -21,6 +21,7 @@ body {
 .joining-options {
   min-height: 200px;
   min-width: 320px;
+  max-width: 320px;
 }
 
 input[type='radio']:after {
@@ -95,4 +96,25 @@ input[type='radio']:checked:after {
     color: #fff !important;
     padding: 10px 3rem !important;
   }
+  .text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .bt{
+    gap: 5px;
+  }
+}
+/* Login Page */
+.Login-page {
+  background-image: url('./assets/images/bg-2.png');
+  background-size: cover;
+  height: 100%;
+}
+.float-right{
+  float: right;
+}
+.log{
+  padding-top: 250px;
 }

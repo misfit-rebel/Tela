@@ -1,11 +1,15 @@
-import CreateAccount from '../components/CreateAccount';
-// import JoinAsACustomer from '../components/JoinAsACustomer';
+// import CreateAccount from '../components/CreateAccount';
+// import Login from '../components/Login';
+import HireAnAgent from '../components/HireAnAgent';
+import JoinAsACustomer from '../components/JoinAsACustomer';
 
 const SignUp = () => {
   return (
     <>
-      {/* <JoinAsACustomer /> */}
-      <CreateAccount />
+      <JoinAsACustomer />
+      <HireAnAgent/>
+      {/* <CreateAccount /> */}
+      {/* <Login/> */}
     </>
   );
 };

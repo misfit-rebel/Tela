@@ -320,7 +320,7 @@
 
 "@esbuild/win32-ia32@0.19.12":
   version "0.19.12"
-  resolved "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.19.12.tgz"
+  resolved "https://registry.yarnpkg.com/@esbuild/win32-ia32/-/win32-ia32-0.19.12.tgz#000516cad06354cc84a73f0943a4aa690ef6fd67"
   integrity sha512-+ZOE6pUkMOJfmxmBZElNOx72NKpIa/HFOMGzu8fqzQJ5kgf6aTGrcJaFsNiVMH4JKpMipyK+7k0n2UXN7a8YKQ==
 
 "@esbuild/win32-x64@0.19.12":
@@ -489,7 +489,7 @@
 
 "@rollup/rollup-win32-ia32-msvc@4.13.0":
   version "4.13.0"
-  resolved "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.13.0.tgz"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.13.0.tgz#a7505884f415662e088365b9218b2b03a88fc6f2"
   integrity sha512-P5/MqLdLSlqxbeuJ3YDeX37srC8mCflSyTrUsgbU1c/U9j6l2g2GiIdYaGD9QjdMQPMSgYm7hgg0551wHyIluw==
 
 "@rollup/rollup-win32-x64-msvc@4.13.0":
@@ -1955,6 +1955,11 @@ react-dom@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-icons@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-5.0.1.tgz#1694e11bfa2a2888cab47dcc30154ce90485feee"
+  integrity sha512-WqLZJ4bLzlhmsvme6iFdgO8gfZP17rfjYEJ2m9RsZjZ+cc4k1hTzknEz63YS1MeT50kVzoa1Nz36f4BEx+Wigw==
 
 react-is@^16.13.1:
   version "16.13.1"
