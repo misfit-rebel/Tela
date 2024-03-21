@@ -5,7 +5,7 @@ const SignUp = () => {
   return (
     <>
       {/* <JoinAsACustomer /> */}
-      <CreateAccount />
+      {/* <CreateAccount /> */}
     </>
   );
 };
