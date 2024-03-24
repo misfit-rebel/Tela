@@ -10,7 +10,7 @@ const CreateAccount = () => {
         <img src={logo} alt="" className="z-1 mb-4" />
         <span className="z-1">
           <h1 className="fw-bold text-white">Logo</h1>
-        </span>
+        </span>                                                                                                                                                                            
       </div>
       <div className="container form-container">
         <div className="row gx-5">
@@ -21,7 +21,7 @@ const CreateAccount = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
             </p>
           </div>
-          <div className="col-lg-6 z-1 bg-white p-5 rounded-4">
+          <div className="col-lg-6 z-1 bg-white p-5 rounded-4 mb-5">
             <h6>LET'S GET YOU STARTED</h6>
             <h4 className="mb-5 mt-3">Create an Account</h4>
             <div className="form-inputs d-flex flex-column ">

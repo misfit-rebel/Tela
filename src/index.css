@@ -1,16 +1,29 @@
 /* Global Classes */
 body {
-  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 .font {
-  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.bolder {
+  font-weight: 900;
 }
 
 .btn {
   background-color: #212121;
   color: #fff;
   padding: 10px 10rem;
+}
+
+.flex-gap-3 {
+  gap: 1rem;
+}
+
+.btn-secondary {
+  width: 300px;
+  padding: 10px 0 !important;
 }
 
 /* .Join As a customer */
@@ -23,7 +36,7 @@ body {
   min-width: 320px;
 }
 
-input[type='radio']:after {
+input[type="radio"]:after {
   width: 17px;
   height: 17px;
   border-radius: 15px;
@@ -31,13 +44,13 @@ input[type='radio']:after {
   left: -1px;
   position: relative;
   background-color: #fafafa;
-  content: '';
+  content: "";
   display: inline-block;
   visibility: visible;
   border: 1px solid #000;
 }
 
-input[type='radio']:checked:after {
+input[type="radio"]:checked:after {
   width: 15px;
   height: 15px;
   border-radius: 15px;
@@ -57,7 +70,7 @@ input[type='radio']:checked:after {
 /* Create Account */
 
 .sign-up-page {
-  background-image: url('./assets/images/bg-1.png');
+  background-image: url("./assets/images/bg-1.png");
   background-size: cover;
   height: 100%;
 }
@@ -81,6 +94,36 @@ input[type='radio']:checked:after {
   gap: 2rem;
 }
 
+/* Complete Profile */
+
+.profile-text-container {
+  margin-bottom: 8rem;
+}
+
+.profile-text-container h1 {
+  margin-bottom: 2rem;
+}
+
+/* Profile Step1 */
+.profile-step1 {
+  background-image: url("./assets/images/Group-166.png");
+  height: max-content;
+}
+
+/* Profile Step2 */
+.profile-step2 {
+  background-image: url("./assets/images/Group167.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.progress-bar {
+  width: 3px;
+  left: 3%;
+  height: 90%;
+  z-index:-1
+}
+
 @media (max-width: 600px) {
   /* Join as a customer */
   .options-section {
@@ -90,9 +133,13 @@ input[type='radio']:checked:after {
     gap: 15px;
   }
 
-  .btn {
+  .profile-btns-row {
+    gap: 10px;
+  }
+
+  .get-started-btn {
     background-color: #212121 !important;
     color: #fff !important;
-    padding: 10px 3rem !important;
+    padding: 10px 5rem !important;
   }
 }
