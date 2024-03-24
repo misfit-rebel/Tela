@@ -1,10 +1,4 @@
 const SelectInput = ({options}) => {
-  const hide = ()=>{
-
-return
-}
-
-
     return (
       <>
         <select name="" id="" className="p-2 rounded-3">
