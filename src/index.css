@@ -97,7 +97,7 @@ input[type='radio']:checked:after {
     padding: 10px 3rem !important;
   }
   .text{
-    display: flex;
+     display: flex;
     flex-wrap: wrap;
     justify-content: center !important;
     text-align: center !important;
@@ -117,4 +117,27 @@ input[type='radio']:checked:after {
 }
 .log{
   padding-top: 250px;
+}
+/* Agent Login page*/
+.Agent-Login{
+  background-image: url('../src/assets/images/bg-3.png');
+  background-size: cover; 
+}
+.centered {
+  position: absolute;
+  color: #ffffff;
+  top: 50%;
+  left: 40%;  
+  transform: translate(-50%, -50%);
+}
+/* Agent sign up */
+.Agent-signup{
+  background-image: url('../src/assets/images/bg-4.png');
+  background-size: cover;
+  overflow: hidden;
+}
+/* Agent Signup 2 */
+.Agent-signup2{
+  background-image: url('../src/assets/images/bg-5.png');
+  background-size: cover;
 }

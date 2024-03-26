@@ -16,7 +16,7 @@ const Login = () => {
       <div className="container form-container">
         <div className="row gx-5">
           <div className="col-lg-6 text-white z-1 d-flex flex-column justify-content-center ">
-            <h3 className="fw-semibold text ">Building the Future...</h3>
+            <h3 className="fw-semibold text">Building the Future...</h3>
             <p className='text'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.{' '}
@@ -48,7 +48,6 @@ const Login = () => {
             <div className="text-center mt-5">
               <button className="btn">CONTINUE</button>
             </div>
-
             <p className="text-center mt-3 log">
               New User?{' '}
               <span className="text-decoration-underline fw-semibold">
