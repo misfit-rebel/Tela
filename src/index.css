@@ -7,10 +7,23 @@ body {
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
+.bolder {
+  font-weight: 900;
+}
+
 .btn {
   background-color: #212121;
   color: #fff;
   padding: 10px 10rem;
+}
+
+.flex-gap-3 {
+  gap: 1rem;
+}
+
+.btn-secondary {
+  width: 300px;
+  padding: 10px 0 !important;
 }
 
 /* .Join As a customer */
@@ -81,6 +94,104 @@ input[type='radio']:checked:after {
 .form-inputs {
   gap: 2rem;
 }
+/* Home Page */
+
+.hero-bg {
+  background-image: url('./assets/images/bg-img2.jfif');
+  background-position: left;
+}
+
+.overlay-wrapper-2 {
+  left: 0;
+}
+
+.single-slide {
+  gap: 1rem;
+}
+
+.slick-slide {
+  margin-right: 10px;
+}
+
+.slick-list {
+  position: relative !important;
+  height: 400px !important;
+}
+
+.slick-next {
+  position: absolute !important;
+  top: 0 !important;
+  left: 98%;
+}
+
+.slick-prev {
+  position: absolute !important;
+  top: 0 !important;
+  left: 95% !important;
+}
+
+.slick-prev:before {
+  content: url('./assets/images/AutoLayoutHorizontal(1).png') !important;
+}
+
+.slick-next:before {
+  content: url('./assets/images/AutoLayoutHorizontal.png') !important;
+}
+
+.browse-collections {
+  background-image: url('./assets/images/Rectangle4308.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 280px;
+  margin-bottom: 10rem;
+}
+
+/* Complete Profile */
+
+.profile-text-container {
+  margin-bottom: 8rem;
+}
+
+.profile-text-container h1 {
+  margin-bottom: 2rem;
+}
+
+/* Profile Step1 */
+.profile-step1 {
+  background-image: url('./assets/images/Group-166.png');
+  height: max-content;
+}
+
+/* Profile Step2 */
+.profile-step2 {
+  background-image: url('./assets/images/Group167.png');
+  height: 100%;
+  background-size: cover;
+}
+
+.progress-bar {
+  width: 3px;
+  left: 3%;
+  height: 90%;
+  z-index: -1;
+}
+
+/* PLace Bid */
+.inquiry-form-container h6 {
+  width: 18%;
+}
+
+.date-column {
+  gap: 5rem;
+}
+
+.amount-col {
+  gap: 5rem;
+}
+
+.status-col {
+  gap: 5rem;
+}
 
 
 @media (max-width: 600px) {
@@ -92,10 +203,25 @@ input[type='radio']:checked:after {
     gap: 15px;
   }
 
-  .btn {
+  .profile-btns-row {
+    gap: 10px;
+  }
+
+  .get-started-btn {
     background-color: #212121 !important;
     color: #fff !important;
-    padding: 10px 3rem !important;
+    padding: 10px 5rem !important;
+  }
+
+  .slick-prev {
+    left: 70% !important;
+  }
+  .slick-next {
+    left: 85% !important;
+  }
+
+  .slick-slide {
+    margin-right: 0;
   }
   .text{
      display: flex;

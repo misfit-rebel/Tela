@@ -9,6 +9,13 @@ import AgentSignup2 from "../components/AgentSignup2";
 import Agentsignup3 from "../components/Agentsignup3";
 
 
+// import CompleteProfile from '../components/CompleteProfile';
+// import CreateAccount from '../components/CreateAccount';
+// import JoinAsACustomer from '../components/JoinAsACustomer';
+// import ProfileStep1 from '../components/ProfileStep1';
+// import ProfileStep2 from '../components/ProfileStep2';
+// import PlaceProposal from './PlaceProposal';
+import SubmittedProposals from './SubmittedProposals';
 
 const SignUp = () => {
   return (
@@ -22,6 +29,14 @@ const SignUp = () => {
       <CompleteSignup/>
       <AgentSignup2/>
       <Agentsignup3/>
+      {/* <JoinAsACustomer />
+      <CreateAccount />
+      <CompleteProfile />
+      <ProfileStep1 />
+      <ProfileStep2 />
+      <CreateAccount /> */}
+      {/* <PlaceProposal /> */}
+      <SubmittedProposals />
     </>
   );
 };
