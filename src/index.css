@@ -34,6 +34,7 @@ body {
 .joining-options {
   min-height: 200px;
   min-width: 320px;
+  max-width: 320px;
 }
 
 input[type='radio']:after {
@@ -164,7 +165,7 @@ input[type='radio']:checked:after {
 /* Profile Step2 */
 .profile-step2 {
   background-image: url('./assets/images/Group167.png');
-  height: 100vh;
+  height: 100%;
   background-size: cover;
 }
 
@@ -191,6 +192,7 @@ input[type='radio']:checked:after {
 .status-col {
   gap: 5rem;
 }
+
 
 @media (max-width: 600px) {
   /* Join as a customer */
@@ -221,4 +223,51 @@ input[type='radio']:checked:after {
   .slick-slide {
     margin-right: 0;
   }
+  .text{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .bt{
+    gap: 5px;
+  }
+}
+/* Login Page */
+.Login-page {
+  background-image: url('./assets/images/bg-2.png');
+  background-size: cover;
+  height: 100%;
+}
+.float-right{
+  float: right;
+}
+.log{
+  padding-top: 250px;
+}
+/* Agent Login page*/
+.Agent-Login{
+  background-image: url('../src/assets/images/bg-3.png');
+  background-size: cover; 
+}
+.centered {
+  position: absolute;
+  color: #ffffff;
+  top: 50%;
+  left: 40%;  
+  transform: translate(-50%, -50%);
+}
+/* Agent sign up */
+.Agent-signup{
+  background-image: url('../src/assets/images/bg-4.png');
+  background-size: cover;
+  overflow: hidden;
+}
+/* Agent Signup 2 */
+.Agent-signup2{
+  background-image: url('../src/assets/images/bg-5.png');
+  background-size: cover;
+}
+.space{
+  margin-bottom: 40%;
 }

@@ -6,24 +6,24 @@ const CreateAccount = () => {
   return (
     <main className="sign-up-page position-relative">
       <div className="overlay-wrapper position-absolute h-100 bg-dark w-100 "></div>
-      <div className="ms-5 d-flex  gap-2 logo-container mb-5 pt">
-        <img src={logo} alt="" className="z-1 mb-4" />
-        <span className="z-1">
-          <h1 className="fw-bold text-white">Logo</h1>
-        </span>                                                                                                                                                                            
+      <div className="ms-5 d-flex  gap-2 logo-container mb-5 pt py-3">
+        <img src={logo} alt="" className="z-1 mb-4 " />
+        <span className="z-1 ">
+          <h1 className="fw-bold text-white ">Logo</h1>
+        </span>
       </div>
       <div className="container form-container">
         <div className="row gx-5">
-          <div className="col-lg-6 text-white z-1 d-flex flex-column justify-content-center">
-            <h3 className="fw-semibold">Building the Future...</h3>
-            <p>
+          <div className="col-lg-6 text-white z-1 d-flex flex-column justify-content-center ">
+            <h3 className="fw-semibold text ">Building the Future...</h3>
+            <p className='text'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
             </p>
           </div>
-          <div className="col-lg-6 z-1 bg-white p-5 rounded-4 mb-5">
-            <h6>LET'S GET YOU STARTED</h6>
-            <h4 className="mb-5 mt-3">Create an Account</h4>
+          <div className="col-lg-6 z-1 bg-white p-5 rounded-4">
+            <h6 className='text'>LETS GET YOU STARTED</h6>
+            <h4 className="mb-5 mt-3 fw-bold text">Create an Account</h4>
             <div className="form-inputs d-flex flex-column ">
               <FormRow
                 labelText="Industry Name"
@@ -55,7 +55,7 @@ const CreateAccount = () => {
               </p>
               <hr className="position-absolute top-0 left-0 w-100 " />
             </div>
-            <div className="row">
+            <div className="row bt">
               <div className="col-lg-6 ">
                 <div className="border border-2 p-2 rounded-3 text-center">
                   <img src={fbIcon} alt="" /> Sign in with Facebook

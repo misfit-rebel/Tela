@@ -15,6 +15,16 @@ export const joiningOptions = [
     name: 'Supplier',
   },
 ];
+export const joiningOption = [
+  {
+    id: 1,
+    name: 'Hire an Agent'
+  },
+  {
+    id: 2,
+    name: 'Not Right Now'
+  },
+];
 
 export const bids = [
   {
