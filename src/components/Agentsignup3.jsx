@@ -21,7 +21,7 @@ const Agentsignup3 = () => {
                 <label className="fw-bold">Commission%</label>
                 <FormRow type="text" placeholder="Input your Commission" />
                 <label className="fw-bold">Official Address</label>
-                <FormRow type="text" placeholder="Enter your Official Address" />
+                <FormRow type="text" placeholder="Enter Official Address" />
               </div>
               
               <div className="text-center mt-5 mb-5">

@@ -21,7 +21,7 @@ const CompleteSignup = () => {
             </button>
           </div>
           <div className="col-lg-6 text-lg-start text-sm-center fw-semibold">
-            <button className="btn btn-secondary">Complete my profile</button>
+            <button className="btn space btn-secondary">Complete my profile</button>
           </div>
         </div>
       </section>

@@ -82,6 +82,7 @@ input[type='radio']:checked:after {
   gap: 2rem;
 }
 
+
 @media (max-width: 600px) {
   /* Join as a customer */
   .options-section {
@@ -140,4 +141,7 @@ input[type='radio']:checked:after {
 .Agent-signup2{
   background-image: url('../src/assets/images/bg-5.png');
   background-size: cover;
+}
+.space{
+  margin-bottom: 40%;
 }
